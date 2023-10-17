@@ -1,11 +1,12 @@
-#!/usr/bin/env python3
-''' Contains State class '''
-
+#!/usr/bin/python3
+"""The module contains the class BaseModel"""
 from models.base_model import BaseModel
 
 class State(BaseModel):
-    ''' Represents a state in USA '''
-
-    class_att_dict = {'name': str}
-
+    """
+    Task 9.
+    The class is the Baseodel class with the
+        additional public class attributes defined
+        a) name: string-empty string
+    """
     name = ''

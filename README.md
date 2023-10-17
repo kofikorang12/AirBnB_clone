@@ -18,3 +18,13 @@ This is the console /command interpreter for Airbnb clone project. The console c
 * help - see descriptions of commands
 
 To start, navigate to the project folder and enter `./console.py` in the shell.
+
+## Author
+<details>
+    <summary>Jeffrey Baah</summary>
+    <ul>
+    <li><a href="https://www.github.com/kofikorang12">Github</a></li>
+    <li><a href="https://www.twitter.com/kofikorang12">Twitter</a></li>
+    <li><a href="mailto:jbaah69@gmail.com">e-mail</a></li>
+    </ul>
+</details>

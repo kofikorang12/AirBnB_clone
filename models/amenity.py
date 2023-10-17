@@ -1,11 +1,12 @@
-#!/usr/bin/env python3
-''' Contains Amenity class '''
-
+#!/usr/bin/python3
+"""Defines the Amenity class BaseModel"""
 from models.base_model import BaseModel
 
+
 class Amenity(BaseModel):
-    ''' Represents an amenity '''
-
-    class_att_dict = {'name': str}
-
+    """
+    The Amenity class  BaseModel class with the additional
+    public class attributes
+    a) name : string - empty string
+    """
     name = ''

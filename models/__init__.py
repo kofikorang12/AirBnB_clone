@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
-''' Initializes module
-'''
+#!/usr/bin/python3
+"""
+  the module contains a storage variable of type FileStorage
+"""
+from models.engine.file_storage import FileStorage
 
-import models.engine.file_storage as fs
-
-storage = fs.FileStorage()
+storage = FileStorage()
 storage.reload()

@@ -1,12 +1,26 @@
-#!/usr/bin/env python3
-''' Contains Place class '''
-
+#!/usr/bin/python3
+"""Defines the Place class of BaseModel class"""
 from models.base_model import BaseModel
 
 class Place(BaseModel):
-    ''' A place for rent, in a location and with serveral features ''
+    """
+    Task 8.
+    The Place class the BaseModel class with the additional
+    public class attributes
+        city_id: string - empty string: it will be the City.id
+        user_id: string - empty string: it will be the User.id
+        name: string - empty string
+        description: string - empty string
+        number_rooms: integer - 0
+        number_bathrooms: integer - 0
+        max_guest: integer - 0
+        price_by_night: integer - 0
+        latitude: float - 0.0
+        longitude: float - 0.0
+        amenity_ids: list of string - empty list: it will be the list of
+        Amenity.id later
+    """
 
-    class_att_dict = {'city_id': str, 'user_id': str, 'name': str, 'description': str, 'number_rooms': int, 'number_bathrooms': int, 'max_guest': int, 'price_by_night': int, 'latitude': float, 'longitude': float, 'amenity_id': list}
     city_id = ''
     user_id = ''
     name = ''
@@ -17,4 +31,4 @@ class Place(BaseModel):
     price_by_night = 0
     latitude = 0.0
     longitude = 0.0
-    amenity_id = []
+    amenity_ids = []

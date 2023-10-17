@@ -1,13 +1,17 @@
-#!/usr/bin/env python3
-''' Contains user class '''
-
+#!/usr/bin/python3
+"""This module contains the class BaseModel"""
 from models.base_model import BaseModel
 
 class User(BaseModel):
-    ''' A user of hbnb '''
-
-    class_att_dict = {email':str, 'password':str, 'first_name': str, 'last_name': str}
-
+    """
+    Task 8.
+    This class is the BaseModel class with the
+        additional public class attributes
+        a. email: string - empty string
+        b. password: string - empty string
+        c. first_name: stirng - empty string
+        d. last_name: string - empty string
+    """
     email = ''
     password = ''
     first_name = ''

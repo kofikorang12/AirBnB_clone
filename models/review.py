@@ -1,13 +1,16 @@
-#!/usr/bin/env python3
-''' Contains Review class '''
-
+#!/usr/bin/python3
+"""Defines the Review model class BaseModel class"""
 from models.base_model import BaseModel
 
 class Review(BaseModel):
-    ''' Review of a place '''
-
-    class_att_dict = {'place_id': str, 'user_id': str, 'text': str}
-
+    """
+    Task 8:
+    The Review class the BaseModel class with the additional
+    public class attributes
+        place_id: string - empty string: it will be the Place.id
+        user_id: string - empty string: it will be the User.id
+        text: string - empty sting
+    """
     place_id = ''
     user_id = ''
     text = ''
